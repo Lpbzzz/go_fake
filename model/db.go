@@ -37,4 +37,5 @@ func InitDb() {
 	db.DB().SetMaxOpenConns(100)
 
 	db.DB().SetConnMaxLifetime(10 * time.Second)
+
 }
